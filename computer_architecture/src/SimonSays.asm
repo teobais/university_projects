@@ -2,7 +2,7 @@ TITLE MYPROGRAM
 DEDOMENA SEGMENT
 
 msg0 db "Please enter the preferred number of rounds:",10,13,"$"
-msg1 db 10,13, "Epitreptos arithmos gurwn 02 - 40",10,13,"$"
+msg1 db 10,13, "Accepted round range between 02 - 40",10,13,"$"
 msg2 db 10,13,"[ q | w | e | r ]",10,13,"$"
 msg3 db 10,13,"[ q |   |   |   ]",10,13,"$"
 msg4 db 10,13,"[   | w |   |   ]",10,13,"$"
@@ -140,7 +140,7 @@ again_random:                                                ;
   int 1Ah               ;Time of day interrupt.              ;
                         ;To DX low word                      ;
                         ;To CX high word                     ;
-  and DX,11b  		;mask the bits, We want only 00,01,10,11 ;
+  and DX,11b ;mask the bits, We want only 00,01,10,11        ;
   cmp DL,0          ;discard 0,fetch a new number            ;
   JE again_random                                            ;
   cmp DL,1          ;discard 1,fetch a new number            ;
@@ -151,7 +151,7 @@ again_random:                                                ;
   POP AX                                                     ;
   RET                                                        ;
 random_command endp                                          ;
-                   ;PARAGWGH TYXAIOU ARI8MOU                 ;
+                   ;GENERATING RANDOM NUMBER                 ;
 ;=================================================;;;;;;;;;;;;
 
 print_rand proc                   ;
