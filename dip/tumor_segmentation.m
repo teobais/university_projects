@@ -52,7 +52,7 @@ for i=1:300
   end 
 end
 giro_giro = edge(L);
-fprintf('Μέγεθος όγκου σε pixels: %i \n', count);
+fprintf('Tumor size in pixels: %i \n', count);
 
 %giving a little bit of thickness to the frame
 for i=1:300
