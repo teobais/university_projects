@@ -151,7 +151,7 @@ again_random:                                                ;
   POP AX                                                     ;
   RET                                                        ;
 random_command endp                                          ;
-                   ;PARAGWGH TYXAIOU ARI8MOU                 ;
+                   ;GENERATING RANDOM NUMBER                 ;
 ;=================================================;;;;;;;;;;;;
 
 print_rand proc                   ;
