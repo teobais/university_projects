@@ -1,7 +1,7 @@
 TITLE MYPROGRAM
 DEDOMENA SEGMENT
 
-msg0 db "Eisagete ari9mo gurwn:",10,13,"$"
+msg0 db "Please enter the preferred number of rounds:",10,13,"$"
 msg1 db 10,13, "Epitreptos arithmos gurwn 02 - 40",10,13,"$"
 msg2 db 10,13,"[ q | w | e | r ]",10,13,"$"
 msg3 db 10,13,"[ q |   |   |   ]",10,13,"$"
