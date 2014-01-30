@@ -140,7 +140,7 @@ again_random:                                                ;
   int 1Ah               ;Time of day interrupt.              ;
                         ;To DX low word                      ;
                         ;To CX high word                     ;
-  and DX,11b  		;mask the bits, We want only 00,01,10,11 ;
+  and DX,11b ;mask the bits, We want only 00,01,10,11        ;
   cmp DL,0          ;discard 0,fetch a new number            ;
   JE again_random                                            ;
   cmp DL,1          ;discard 1,fetch a new number            ;
