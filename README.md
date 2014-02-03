@@ -16,7 +16,7 @@ The optional one, was about implementing the <i>pac-man</i> game, where almost n
 
 ![pacman](/_images/pac-man.jpg)
 
-<b>dip</b> : In the course of <code>Digital Image Processing</code>, a colleague of mine and me, implemented a <i>Brain Tumor Segmentation</code> application, using <code>Matlab</code>. Our final product was abstract, in order to fully handle every medical image taken from the human body and not only the tumor's, as it had been asked to. Our score was 100% and the final image manipulation, from selection till segmentation, looked like below:
+<b>dip</b> : In the course of <code>Digital Image Processing</code>, a colleague of mine and me, implemented a <i>Brain Tumor Segmentation</code> application, using <code>Matlab</code>. Our final product was abstract, in order to fully handle every medical image taken from the human body and not only the tumor's, as it had been asked to. In the fore-mentioned fore, I also put some sample medical images, just in case you 'd like sth quick to experiment the application by yourself. Our score was 100% and the final image manipulation, from selection till segmentation, looked like below:
 
 ![brain](/_images/brain_tumor_segmentaion.jpg)
 
